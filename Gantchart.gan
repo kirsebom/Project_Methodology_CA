@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="CA" company="Lofthus frukt og saft" webLink="http://" view-date="2020-08-13" view-index="0" gantt-divider-location="300" resource-divider-location="300" version="2.8.11" locale="no_NO">
+<?xml version="1.0" encoding="UTF-8"?><project name="CA" company="Lofthus frukt og saft" webLink="http://" view-date="2020-08-13" view-index="1" gantt-divider-location="300" resource-divider-location="300" version="2.8.11" locale="no">
     <description><![CDATA[Website planning for Lofthus frukt og saft]]></description>
     <view zooming-state="default:2" id="gantt-chart">
         <field id="tpd3" name="Navn" width="167" order="0"/>
@@ -34,7 +34,9 @@
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
     </tasks>
-    <resources/>
+    <resources>
+        <resource id="0" name="Ole-Martin Kirsebom " function="Default:1" contacts="olemartinkirsebom@gmail.com" phone="48236973"/>
+    </resources>
     <allocations/>
     <vacations/>
     <previous/>
