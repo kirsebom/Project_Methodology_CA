@@ -36,6 +36,10 @@
     </tasks>
     <resources>
         <resource id="0" name="Ole-Martin Kirsebom " function="Default:1" contacts="olemartinkirsebom@gmail.com" phone="48236973"/>
+        <resource id="1" name="Joe" function="SoftwareDevelopment:9" contacts="joe@joe.net" phone="12345678"/>
+        <resource id="2" name="Marve" function="SoftwareDevelopment:9" contacts="marve@marve.com" phone="64723821"/>
+        <resource id="3" name="julie" function="SoftwareDevelopment:2" contacts="julie@julie.com" phone="90182763"/>
+        <resource id="4" name="Sophie" function="SoftwareDevelopment:2" contacts="sophie@sophie.com" phone="85746352"/>
     </resources>
     <allocations/>
     <vacations/>
