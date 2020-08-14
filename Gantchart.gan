@@ -64,6 +64,14 @@
         <task id="23" name="Features page" color="#8cb6ce" meeting="false" start="2020-08-28" duration="5" complete="0" thirdDate="2020-08-13" thirdDate-constraint="0" expand="true"/>
         <task id="25" name="Photography" color="#8cb6ce" meeting="false" start="2020-08-28" duration="3" complete="0" thirdDate="2020-08-13" thirdDate-constraint="0" expand="true"/>
         <task id="27" name="Design complete" color="#009933" meeting="true" start="2020-09-04" duration="0" complete="0" thirdDate="2020-08-13" thirdDate-constraint="0" expand="true"/>
+        <task id="28" name="Setup server" color="#8cb6ce" meeting="false" start="2020-08-28" duration="4" complete="0" thirdDate="2020-08-13" thirdDate-constraint="0" expand="true">
+            <depend id="33" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="30" name="Build template" color="#8cb6ce" meeting="false" start="2020-08-28" duration="3" complete="0" thirdDate="2020-08-13" thirdDate-constraint="0" expand="true">
+            <depend id="33" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="33" name="Tests" color="#8cb6ce" meeting="false" start="2020-09-03" duration="4" complete="0" thirdDate="2020-08-13" thirdDate-constraint="0" expand="true"/>
+        <task id="36" name="Launch" color="#009933" meeting="true" start="2020-09-09" duration="0" complete="0" thirdDate="2020-08-13" thirdDate-constraint="0" expand="true"/>
     </tasks>
     <resources>
         <resource id="0" name="Ole-Martin Kirsebom " function="Default:1" contacts="olemartinkirsebom@gmail.com" phone="48236973"/>
@@ -78,6 +86,7 @@
         <allocation task-id="9" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
         <allocation task-id="17" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
         <allocation task-id="25" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="36" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
         <allocation task-id="2" resource-id="1" function="SoftwareDevelopment:9" responsible="true" load="50.0"/>
         <allocation task-id="5" resource-id="1" function="SoftwareDevelopment:9" responsible="true" load="50.0"/>
         <allocation task-id="8" resource-id="1" function="SoftwareDevelopment:9" responsible="false" load="40.0"/>
@@ -90,6 +99,10 @@
         <allocation task-id="15" resource-id="2" function="SoftwareDevelopment:9" responsible="false" load="50.0"/>
         <allocation task-id="19" resource-id="2" function="SoftwareDevelopment:9" responsible="false" load="50.0"/>
         <allocation task-id="21" resource-id="2" function="SoftwareDevelopment:9" responsible="true" load="100.0"/>
+        <allocation task-id="28" resource-id="3" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="33" resource-id="3" function="SoftwareDevelopment:2" responsible="false" load="25.0"/>
+        <allocation task-id="30" resource-id="4" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="33" resource-id="4" function="SoftwareDevelopment:2" responsible="true" load="75.0"/>
     </allocations>
     <vacations/>
     <previous/>
