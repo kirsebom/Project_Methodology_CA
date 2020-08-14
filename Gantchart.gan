@@ -62,7 +62,7 @@
         </task>
         <task id="21" name="Homepage" color="#8cb6ce" meeting="false" start="2020-08-28" duration="5" complete="0" thirdDate="2020-08-13" thirdDate-constraint="0" expand="true"/>
         <task id="23" name="Features page" color="#8cb6ce" meeting="false" start="2020-08-28" duration="5" complete="0" thirdDate="2020-08-13" thirdDate-constraint="0" expand="true"/>
-        <task id="25" name="Photography" color="#8cb6ce" meeting="false" start="2020-08-28" duration="3" complete="0" thirdDate="2020-08-13" thirdDate-constraint="0" expand="true"/>
+        <task id="25" name="Photography and article" color="#8cb6ce" meeting="false" start="2020-08-28" duration="4" complete="0" thirdDate="2020-08-13" thirdDate-constraint="0" expand="true"/>
         <task id="27" name="Design complete" color="#009933" meeting="true" start="2020-09-04" duration="0" complete="0" thirdDate="2020-08-13" thirdDate-constraint="0" expand="true"/>
         <task id="28" name="Setup server" color="#8cb6ce" meeting="false" start="2020-08-28" duration="4" complete="0" thirdDate="2020-08-13" thirdDate-constraint="0" expand="true">
             <depend id="33" type="2" difference="0" hardness="Strong"/>
